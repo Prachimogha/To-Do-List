@@ -1,0 +1,98 @@
+/* style.css */
+@import url(https://fonts.googleapis.com/css?family=Permanent );
+*{
+  font-family: 'matemasie', 'cursive';
+}
+
+body {
+    background-image: url(WhatsApp\ Image\ 2024-08-17\ at\ 17.49.30_f92b90bd.jpg);
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 50px 50px;
+    color: #b4ddd8;
+  }
+  
+  .options {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    margin: 0 10px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3c9099;
+    color: black;
+    font-size: 100%;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .options button:hover {
+    background-color: #5fbdb0;
+  }
+  
+  #todo-input {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #665c84;
+    border-radius: 5px;
+    font-size: 100%;
+  }
+  
+  #add-btn {
+    margin: 55px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #5fbdb0;
+    color: black;
+    font-size: 100%;
+    cursor: pointer;
+  }
+  
+  #add-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #todo-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+  }
+  
+  #todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: azure;
+  }
+  
+  #todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #todo-list li button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #665c84;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #todo-list li button:hover {
+    background-color: #5fbdb0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
